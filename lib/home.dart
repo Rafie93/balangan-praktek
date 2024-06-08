@@ -1,3 +1,4 @@
+import 'package:balangan_go/makanan.dart';
 import 'package:flutter/material.dart';
 
 class HomeApp extends StatelessWidget {
@@ -156,9 +157,10 @@ class HomeApp extends StatelessWidget {
                   ),
                 ),
                 ListTile(
-                  title: Text('Item 1'),
+                  title: Text('Menuju Makanan'),
                   onTap: () {
-                    print('Item 1 clicked');
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => MakananPage()));
                   },
                 ),
                 ListTile(
