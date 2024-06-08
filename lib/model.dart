@@ -8,7 +8,7 @@ class HomeApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
           appBar: AppBar(
-            title: Text('CLASS BLANGAN Clone'),
+            title: Text('Whatshapp Clone'),
             backgroundColor: Colors.green[700],
             actions: [
               IconButton(
